@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h1,
+h2 {
+    font-family: 'Iowan Old Style', Times, sans-serif;
+}
+
+p,
+a {
+    font-family: 'Lato', Times, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+#lien {
+    text-align: center;
+    width: 270px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    border-radius: 50px;
+    background: rgb(18, 147, 207);
+}
+
+nav {
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background: rgb(18, 147, 207);
+    color: rgb(246, 246, 246);
+}
+
+nav h2 {
+    text-align: center;
+}
+
+nav li {
+    color: rgb(253, 253, 253);
+}
+
+nav li::marker {
+    color: rgb(132, 243, 206);
+}
+
+
+
+#lien a {
+    color: rgb(250, 250, 250);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section:nth-child(2n) {
+    border-bottom: solid 1px blue;
+}
+
+section:nth-child(2n+1) {
+    border-bottom: solid 1px gray;
+}
+
+.cog {
+    color: rgb(18, 147, 207);
+}
+
+.cog:hover+.cog {
+    color: rgb(49, 125, 100);
+}
