@@ -3,6 +3,7 @@
 h1,
 h2 {
     font-family: 'Iowan Old Style', Times, sans-serif;
+    color: aliceblue;
 }
 
 p,
@@ -92,4 +93,48 @@ section:nth-child(2n+1) {
 
 .cog:hover+.cog {
     color: rgb(49, 125, 100);
+}
+
+#remonter {
+    width: 150px;
+    height: 20px;
+    background: rgb(18, 147, 207);
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+}
+
+#remonter a {
+    color: aliceblue;
+}
+
+body {
+    background-image: url(sapin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+p {
+    color: aliceblue;
+}
+
+main {
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+#phone_display {
+    display: none;
+}
+
+@media all and (max-width: 900px) {
+    #computer_display {
+        display: none;
+    }
+
+    #phone_display {
+        display: block;
+    }
 }
